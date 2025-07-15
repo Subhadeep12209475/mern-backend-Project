@@ -20,9 +20,9 @@ const sendOtpMail = async (email, otp) => {
     console.log("--> inside sendOtpMail", email, otp);
     try {
         await transporter.sendMail({
-            from: '"Likhilesh" <team@likhilesh.com>', // sender address
+            from: '"Subhadeep Team " <team@likhilesh.com>', // sender address
             to: email, // list of receivers
-            subject: "Otp Verification for platform", // Subject line
+            subject: "Otp Verification to Go Subhify", // Subject line
             html: `
                 <html>
                     <head>
